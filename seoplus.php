@@ -4,11 +4,12 @@ Plugin Name: SEO Plus
 Plugin URI: http://aheadzen.com/
 Description: Generate meta robots(noindex & nofollow) based on the selected settings.
 Author: Aheadzen Team
-Version: 1.0.0.0
+Version: 1.1.0
 Author URI: http://aheadzen.com/
 */
 include(dirname(__FILE__).'/class.admin.seoplus.php');
 include(dirname(__FILE__).'/class.frontend.seoplus.php');
+include(dirname(__FILE__).'/woo_category_seo.php');
 $seoplusadmin = new adminSEOPlus();
 $seoplusfrontend = new frontendSEOPlus();
 add_action('admin_menu', array($seoplusadmin, 'setup_seoplus_admin_menu'));

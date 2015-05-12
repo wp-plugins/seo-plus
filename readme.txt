@@ -35,3 +35,6 @@ Each individual page like posts, pages & products  add/edit pages of wp-admin, S
 
 = 1.0.0.0 =
 * Fresh Public Release.
+
+= 1.1.0 =
+* SEO title,description and keyword option added for category & tags  page while add/edit category.
